@@ -183,7 +183,7 @@ header {
   width: 140px;
   background: #D0CDC7;
   color: white;
-  height: 200;
+  height: 117px;
   display: inline-block;
   margin-right: 13px;
   text-shadow: 0 2px 0 rgb(155, 154, 154);
@@ -191,21 +191,23 @@ header {
 
 .stats-box2 {
   width: 140px;
-  background: #414141;
+  background: #949090;
   color: white;
-  height: 200;
+  height: 33px;
   display: inline-block;
   margin-right: 13px;
+  line-height: 33px;
   text-shadow: 0 2px 0 rgb(155, 154, 154);
 }
 .stats-boxlast2 {
   width: 140px;
-  background: #414141;
+  background: #949090;
   color: white;
-  height: 200;
+  height: 33px;
   display: inline-block;
   margin-right: 0px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
+  line-height: 33px;
   text-shadow: 0 2px 0 rgb(155, 154, 154);
 }
 
@@ -225,7 +227,7 @@ header {
    width: 140px;
   background: #D0CDC7;
   color: white;
-  height: 200;
+  height: 117px;
   display: inline-block;
   margin-right: 0;
   text-shadow: 0 2px 0 rgb(155, 154, 154);
@@ -251,6 +253,8 @@ header {
 
 .sidebar .postbuttonribbon {
   display: inline-block;
+  position: relative;
+  z-index: -3;
   width: 300px;
   height: 70px;
   background: white;
@@ -271,20 +275,28 @@ header {
   font-size: 18px;
   margin-top: 8px;
 }
+.sidebar .postbuttonribbon .ribbontext2 {
+  color:#414141;
+  display: inline-block;
+  font-family: Futura;
+  font-size: 12px;
+  margin-top: 37px;
+  margin-left: -110px;
+}
 
 .sidebar .postribbontext{
   color:#414141;
   display: inline-block;
   font-family: Futura;
   font-size: 12px;
-  margin-top: 13px;
+  margin-top: 15px;
   text-align: center;
 }
 
 .sidebar .socialmedia{
   display: inline-block;
   margin-left: -10px;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 150px;
 
 }
@@ -300,37 +312,41 @@ header {
 }
 
 .submainimage1 {
-  width: 330px;
+  width: 315px;
   display: inline-block;
   color: black;
   margin-left: 328px;
+  margin-top: 40px;
 }
 
 .submainimage {
-  width: 330px;
+  width: 315px;
+  margin-top: 40px;
   display: inline-block;
   color: black;
 /*  margin-left: 262px;*/
 }
 
 .subtext {
-  width: 225px;
+  width: 215px;
 }
 
 .subimagetitle {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: bold;
   color: #414141;
+  margin-top: 5px;
 }
 
 .subimagetext {
-  font-size: 13px;
+  font-size: 12px;
   margin-bottom: 20px;
   color: #414141;
 }
 
 .subevents {
   margin-left: 328px;
-  width: 660px;
+  width: 645px;
   display: inline-block;
 }
 
@@ -349,58 +365,68 @@ header {
   font-family: futura;
   font-size: 13px;
   margin-left: 250px;
-  margin-top: -78px;
+  margin-top: -73px;
 }
 
 .subtopborder {
   height: 1px;
   width: 975px;
   background: #D0CDC7;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: -10px;
 }
 
 .subeventtitle {
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 35px;
 }
 
 
 .subeventtextbold{
-  font-size: 16px;
-  font-style: bold;
+  font-size: 14px;
+  font-weight: bold;
   display: inline-block;
-  width: 220px;
+  width: 250px;
   color: #414141;
 }
 .subeventtext{
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   width: 215px;
+  margin-bottom: 10px;
+  color: #D0CDC7;
+}
+
+.subeventtexttime{
+  display: inline-block;
+  font-size: 14px;
+  width: 152px;
   margin-bottom: 10px;
   color: #D0CDC7;
 }
 
 .subeventborder {
   height: 1px;
-  width: 660px;
+  width: 630px;
   background: #D0CDC7;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .startmobbox {
-  margin-top: 25px;
-  height: 240px;
-  width: 345px;
+  margin-top: 10px;
+  height: 210px;
+  width: 300px;
   background: #D0CDC7;
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 57px;
 }
 
 
 .startboxtitle {
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   margin-top: 20px;
   margin-bottom: 10px;
   text-shadow: 0 2px 0 rgb(155, 154, 154);
@@ -408,54 +434,54 @@ header {
 
 .numbercircle1 {
   display: inline-block;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   border-radius: 100px;
-  background: white;
-  margin-left: 18px
+  background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
+  margin-left: 29px
 }
 
 .numbercircledigit {
   text-align: center;
   color: #414141;
-  font-size: 30px;
+  font-size: 18px;
   margin-top: 5px;
 }
 
 .postcircletext {
-  font-size: 12px;
+  font-size: 11px;
   color: #414141;
   text-align: center;
   width: 75px;
-  margin-left: -12px;
-  margin-top: 5px;
+  margin-left: -20px;
+  margin-top: 6px;
 
 }
 
 .numbercircle {
   display: inline-block;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   border-radius: 100px;
-  background: white;
+background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
   margin-left: -5px;
   margin-bottom: 40px;
 }
 
 .numberconnecter {
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: -5px;
   display: inline-block;
-  height: 10px;
-  width: 80px;
+  height: 7px;
+  width: 68px;
   background: #A3A3A3;
 }
 
 .startmobbutton {
-  width: 325px;
-  height: 70px;
+  width: 278px;
+  height: 60px;
   display: inline-block;
-  background: linear-gradient(to bottom, #969992 0%,#b7b7b7 100%); /* W3C */
+ background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
   border-radius: 6px;
   box-shadow: 0 2px 0 rgb(155, 154, 154);
   margin-left: 10px;
@@ -464,7 +490,7 @@ header {
 }
 
 .startbuttontext {
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   color: rgb(84, 84, 238);
   margin-top: 15px;
@@ -473,7 +499,7 @@ header {
 
 .footer1 {
     display: inline-block;
-    height: 400px;
+    height: 340px;
    min-width: 1600px;
    margin: 0 auto;
    /*margin-left: -250px;
@@ -488,7 +514,7 @@ header {
   display: inline-block;
   color:white;
   font-family: Futura;
-  margin-left: 327px;
+  margin-left: 285px;
 
 
 }
@@ -500,8 +526,8 @@ margin-top: 20px;
 }
 
 .blackbutton {
-  width: 135px;
-  height: 23px;
+  width: 120px;
+  height: 18px;
   display: inline-block;
   background: linear-gradient(to bottom, #3d3d3d 19%,#4c4c4c 82%); /* W3C */
   border-radius: 6px;
@@ -529,7 +555,7 @@ margin-top: 20px;
 } 
 
 .fancy {
-  padding: 10px 8px;
+  padding: 16px 8px;
   width: 180px;
   border-radius: 8px 0 0 8px;
   border: 1px solid #acacac;
@@ -541,20 +567,42 @@ margin-top: 20px;
 .checkbox {
   display: inline-block;
   background: #D0CDC7;
-  width: 35px;
-  height: 35px;
+  width: 46px;
+  height: 47px;
   border-radius: 0 8px 8px 0;
-  margin-top: -35px;
+  margin-top: -49px;
   margin-left: 185px;
   color: white;
-  font-size: 28px;
+  font-size: 35px;
   text-align: center;
+  margin-bottom: 10px;
 
 }
 
 .mediaimage {
     margin-top: -1px;
     margin-left: -15px;
+}
+
+.socialmedtext {
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  font-family: Futura;
+  
+
+}
+.mediatext {
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.footermedialine {
+  display: inline-block;
+  width: 220px;
+  height: 1px;
+  background: black;
+  margin-top: 5px;
 }
 
 .footerfinalsection {
@@ -568,7 +616,7 @@ margin-top: 20px;
 }
 
 .footerbuttonyellow {
-  width: 223px;
+  width: 218px;
   height: 50px;
   display: inline-block;
   background: linear-gradient(to bottom, #fcec5f 0%,#f1da36 88%); /* W3C */
@@ -585,6 +633,13 @@ margin-top: 20px;
   padding: 12px;
   text-shadow: 0 2px 0 rgb(155, 154, 154);
 }
+
+.footertext2 {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    
+} 
 
 .footerline {
   width: 175px;
