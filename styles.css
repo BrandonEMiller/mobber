@@ -124,6 +124,34 @@ header {
   margin-left: 19px;
 }
 
+.labelbar {
+  width:620px;
+  height: 50px;
+  background: black;
+  opacity: 0.5;
+  margin-top: -473px;
+}
+
+.labelbartitle {
+  color: white;
+  font-family: futura;
+  font-size: 23px;
+  opacity: 1.0;
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 10px;
+
+}
+
+.labelbartime {
+  color: white;
+  font-family: futura;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 255px;
+}
+
 .event .postlabeltext {
   color: #414141;
   display: inline-block;
@@ -264,8 +292,8 @@ header {
 
 .submainwrap {
   margin: 0 auto;
-  width: 1465px;
-  margin-left: -262px;
+ min-width: 1600px;
+  margin-left: -328px;
   background: white;
   font-family: Futura;
   display: inline-block;
@@ -275,7 +303,7 @@ header {
   width: 330px;
   display: inline-block;
   color: black;
-  margin-left: 262px;
+  margin-left: 328px;
 }
 
 .submainimage {
@@ -301,9 +329,27 @@ header {
 }
 
 .subevents {
-  margin-left: 262px;
+  margin-left: 328px;
   width: 660px;
   display: inline-block;
+}
+
+.subtime1 {
+  display: inline-block;
+  color: #414141;
+  font-family: futura;
+  font-size: 13px;
+  margin-left: 245px;
+  margin-top: -55px;
+}
+
+.subtime {
+  display: inline-block;
+  color: #414141;
+  font-family: futura;
+  font-size: 13px;
+  margin-left: 250px;
+  margin-top: -78px;
 }
 
 .subtopborder {
@@ -357,6 +403,7 @@ header {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
+  text-shadow: 0 2px 0 rgb(155, 154, 154);
 }
 
 .numbercircle1 {
@@ -401,7 +448,7 @@ header {
   display: inline-block;
   height: 10px;
   width: 80px;
-  background: #414141;
+  background: #A3A3A3;
 }
 
 .startmobbutton {
@@ -419,14 +466,15 @@ header {
 .startbuttontext {
   font-size: 30px;
   text-align: center;
-  color: blue;
+  color: rgb(84, 84, 238);
   margin-top: 15px;
+  text-shadow: 0 2px 0 rgb(155, 154, 154);
 }
 
 .footer1 {
     display: inline-block;
     height: 400px;
-   min-width: 1450px;
+   min-width: 1600px;
    margin: 0 auto;
    /*margin-left: -250px;
    margin-top: 200px;*/
@@ -440,7 +488,7 @@ header {
   display: inline-block;
   color:white;
   font-family: Futura;
-  margin-left: 245px;
+  margin-left: 327px;
 
 
 }
