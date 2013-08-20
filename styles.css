@@ -302,25 +302,26 @@ header {
 }
 /*end of sidebar*/
 
+
 .submainwrap {
+/*  margin: 0;*/
+  min-width: 940px;
   margin: 0 auto;
- min-width: 1600px;
-  margin-left: -328px;
-  background: white;
+  background: white repeat-x;
   font-family: Futura;
-  display: inline-block;
 }
 
 .submainimage1 {
-  width: 315px;
+  position: relative;
+  width: 309px;
   display: inline-block;
   color: black;
-  margin-left: 328px;
+  margin-left: 0px;
   margin-top: 40px;
 }
 
 .submainimage {
-  width: 315px;
+  width: 309px;
   margin-top: 40px;
   display: inline-block;
   color: black;
@@ -345,7 +346,7 @@ header {
 }
 
 .subevents {
-  margin-left: 328px;
+  margin-left: 0px;
   width: 645px;
   display: inline-block;
 }
@@ -393,7 +394,7 @@ header {
 .subeventtext{
   display: inline-block;
   font-size: 14px;
-  width: 215px;
+  width: 200px;
   margin-bottom: 10px;
   color: #D0CDC7;
 }
@@ -401,14 +402,14 @@ header {
 .subeventtexttime{
   display: inline-block;
   font-size: 14px;
-  width: 152px;
+  width: 160px;
   margin-bottom: 10px;
   color: #D0CDC7;
 }
 
 .subeventborder {
   height: 1px;
-  width: 630px;
+  width: 600px;
   background: #D0CDC7;
   margin-bottom: 10px;
 }
@@ -416,7 +417,7 @@ header {
 .startmobbox {
   margin-top: 10px;
   height: 210px;
-  width: 300px;
+  width: 289px;
   background: #D0CDC7;
   display: inline-block;
   margin-bottom: 57px;
@@ -438,7 +439,7 @@ header {
   width: 35px;
   border-radius: 100px;
   background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
-  margin-left: 29px
+  margin-left: 22px
 }
 
 .numbercircledigit {
@@ -478,7 +479,7 @@ background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1
 }
 
 .startmobbutton {
-  width: 278px;
+  width: 268px;
   height: 60px;
   display: inline-block;
  background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
@@ -498,15 +499,20 @@ background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1
 }
 
 .footer1 {
-    display: inline-block;
+/*    display: inline-block;
     height: 340px;
-   min-width: 1600px;
+   min-width: 940px;
    margin: 0 auto;
    /*margin-left: -250px;
    margin-top: 200px;*/
+ min-width: 940px;
+ width: 100%;
+  margin-left: 0px;
+ 
+  font-family: Futura;
+  display: inline-block;
 
-
-  background: url(images/footer1.png) repeat-x top left;
+  background: url(images/footer1.png) repeat-x;       
 }
   
 .footerbuttonssection {
@@ -514,7 +520,7 @@ background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1
   display: inline-block;
   color:white;
   font-family: Futura;
-  margin-left: 285px;
+  
 
 
 }
